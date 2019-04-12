@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title>CALCULATOR</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="main.js"></script>
+</head>
+
+
+<body>
+        <div class="container">
+            <div class="display">
+                <div id="input">0</div>
+            </div>
+
+            <div class="firstrow">
+                <button class="ac" onclick="aC()">AC</button>
+                <button class="percentage" onclick="percentage('%')">%</button>
+                <button class="integer" onclick="addNumber('+/-')">+/-</button>
+                <button class="function divide" onclick="divide('÷')">÷</button>
+            </div>
+            <div class="secondrow">
+                <button class="number seven" onclick="addNumber(7)">7</button>
+                <button class="number eight" onclick="addNumber(8)">8</button>
+                <button class="number nine" onclick="addNumber(9)">9</button>
+                <button class="function multiply" onclick="multiply('x')">x</button>
+            </div>
+            <div class="thirdrow">
+                <button class="number four" onclick="addNumber(4)">4</button>
+                <button class="number five" onclick="addNumber(5)">5</button>
+                <button class="number six" onclick="addNumber(6)">6</button>
+                <button class="function minus" onclick="subtract('-')">-</button>
+            </div>
+            <div class="fourthrow">
+                <button class="number one" onclick="addNumber(1)">1</button>
+                <button class="number two" onclick="addNumber(2)">2</button>
+                <button class="number three" onclick="addNumber(3)">3</button>
+                <button class="function plus" onclick="add('+')">+</button>
+            </div>
+            <div class="fifthrow">
+                <button class="numberzero" onclick="addNumber(0)">0</button>
+                <button class="number decimal" onclick="addNumber('.')">.</button>
+                <button class="function equals" onclick="equals('=')">=</button>
+            </div>
+        </div>
+
+</body>
+</html>
